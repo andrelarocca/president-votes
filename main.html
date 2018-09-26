@@ -4790,7 +4790,6 @@
             const isRed = votes[0].cat_party === 'PT'
             const isSecond = turn === '2'
             const backgroundColor = isRed ? isSecond ? 'red' : 'firebrick' : isSecond ? 'blue' : 'royalblue'
-            console.log('a', isRed, isSecond, backgroundColor)
 
             datasets.push({
               label: `${turn === '1' ? 'Primeiro' : 'Segundo'} Turno - ${candidate}`,
